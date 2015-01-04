@@ -7,6 +7,8 @@ Example usage:
 ```javascript
 // This program walks all files and directories under /home/sixpounder
 
+var Moonwalker = require('moonwalk');
+
 var m = new Moonwalker("/home/sixpounder");
 
 m.on("file", function(path) {
